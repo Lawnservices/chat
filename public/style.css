@@ -16,10 +16,14 @@ color: white;
 /* botones */
  /*section */
 
- section{
+section{
 max-width: 1000px;
 margin: 24px auto;
 padding:2px;
+}
+#mensajes ul li::before{
+content: '✔️✔️';
+margin-right: 6px;
 }
 #texto {
     flex: 1;
