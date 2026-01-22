@@ -22,7 +22,7 @@ margin: 24px auto;
 padding:2px;
 }
 section #mensajes li{
-text-decoration: none;
+list-style: none;
 }
 section #mensajes li::before{
 content: '✔️✔️';
