@@ -1,0 +1,80 @@
+body{
+margin: 0;
+/* background-color: rgba(250, 240, 230, 1); */
+background-color: rgba(240, 245, 255, 1);
+}
+header{
+margin: 0;
+overflow: hidden;
+background-color: #061120;
+}
+header nav h1{
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: white;
+}
+/* botones */
+ /*section */
+
+ section{
+max-width: 1200px;
+margin: 24px auto;
+padding:2px;
+}
+#texto {
+    flex: 1;
+    padding: 18px 18px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+#enviar{
+padding:18px 18px;
+border-radius: 0.2rem;
+border: none;
+background-color: #4a90e2;
+margin-left: 12px;
+color: aliceblue;
+cursor: pointer;
+transition: 0.2s;
+}
+#enviar:hover {
+background: #357ac9;
+}
+/* Input */
+ 
+
+/* Botón */
+.chat-btn {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 25px;
+    background: #4a90e2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+ 
+
+/* 📱 MÓVILES: que ocupe todo el ancho y se vea perfecto */
+@media (max-width: 600px) {
+    .chat-input {
+        left: 0;   /* ← en móvil ya no hay separación */
+        right: 0;
+    }
+
+    #texto {
+        font-size: 18px;
+        padding: 14px 18px;
+    }
+
+    .chat-btn {
+        font-size: 18px;
+        padding: 14px 20px;
+    }
+}
