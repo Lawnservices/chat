@@ -21,6 +21,9 @@ max-width: 1000px;
 margin: 24px auto;
 padding:2px;
 }
+section #mensajes li{
+text-decoration: none;
+}
 section #mensajes li::before{
 content: '✔️✔️';
 margin-right: 6px;
