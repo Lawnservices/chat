@@ -6,6 +6,8 @@
      <meta name="description" content="chat en tiempo real">
      <meta name="author" content="Miguel Laguna">
      <link rel="stylesheet" href="style.css">
+     <link rel="manifest" href="/manifest.json">
+
    <title>Chat en tiempo real</title>
 </head>
 <body>
@@ -41,6 +43,8 @@
             li.textContent = msg;
             document.getElementById('mensajes').appendChild(li);
         });
+
+        if ("serviceWorker" in navigator) { navigator.serviceWorker.register("/sw.js"); }
     </script>
 </body>
 </html>
