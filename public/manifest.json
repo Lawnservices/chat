@@ -1,6 +1,6 @@
 {
   "name": "Mi Aplicación",
-  "short_name": "MiApp",
+  "short_name": "Chat-app",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
